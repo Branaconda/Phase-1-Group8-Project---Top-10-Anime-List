@@ -1,12 +1,4 @@
 {
-<<<<<<< HEAD
-    "Anime": [
-        {
-            "id": , 
-            "name": ,
-            "description": ,
-            "comments": "",
-=======
     "anime" : [
         { 
             "id": 1,
@@ -89,7 +81,6 @@
             "description": "",
             "comments": []
         
->>>>>>> a61913c1619aed0d77779bfacca3bbc7a140546b
         }
     ]
 }
