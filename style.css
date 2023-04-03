@@ -1,0 +1,52 @@
+.nav-links li {
+    font-family: ;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: ;
+    background-color: ;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: ;
+    position: sticky;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+#main-title {
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    color: ;
+    background-color: ;
+    text-align: center;
+
+}
+
+#detail-content-container {
+    display: flex;
+    flex-direction: ;
+    background-color: blue;
+    margin: 80px 100px 10px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+#left-container {
+    display: flex;
+    flex-direction: column;
+    width: ;
+    background: none;
+    font-weight: ;
+    padding: ;
+}
