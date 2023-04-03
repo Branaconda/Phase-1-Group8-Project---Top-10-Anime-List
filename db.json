@@ -3,58 +3,58 @@
         { 
             "id": 1,
             "name": "Attack on Titan" ,
-            "image": "" ,
+            "image": "https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=747157b1-4581-414a-959f-c4956ebc3349&region=US&format=jpeg&size=952x536" ,
             "description": "",
-            "comments": ""
+            "comments": []
         },
         
         { 
             "id" : 2,
             "name" : "Fullmetal Alchemist: Brotherhood",
-            "image" : "",
+            "image" : "https://ntvb.tmsimg.com/assets/p19347562_b_h10_aa.jpg?w=1280&h=720",
             "description": "",
-            "comments": ""
+            "comments": []
         },
         
         { 
             "id": 3,
             "name": "Demon Slayer: Kimetsu no Yaiba",
-            "image": "",
+            "image": "https://ihsvoice.com/wp-content/uploads/2022/02/unnamed-5-900x676.jpg",
             "description": "",
-            "comments": ""
+            "comments": []
         },
 
         { 
             "id": 4,
             "name": "Bleach",
-            "image": "",
+            "image": "https://fcuscoyotejournalism.com/wp-content/uploads/2022/01/Bleach-2021-Oneshot-Cover-900x651.jpg",
             "description": "",
-            "comments":""
+            "comments":[]
         },
 
         { 
             "id": 5,
             "name": "Hunter x Hunter",
-            "image":"",
+            "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/S/pv-target-images/108d2966eafb60aaafc333279cfcbdd443f8c2cb6d25f51f16dbc0571a6f2567._UR1920,1080_.jpg",
             "description": "",
-            "comments": ""
+            "comments": []
         },
 
         { 
             "id": 6,
             "name": "That Time I Got Reincarnated as a Slime",
-            "image": "",
+            "image": "https://takanodan.net/assets/images/posts/10-slime/cover.png",
             "description": "",
-            "comments": ""
+            "comments": []
         
         },
 
         { 
             "id": 7,
             "name": "Magi: The Labyrinth of Magic",
-            "image": "",
+            "image": "https://cdn.technadu.com/wp-content/uploads/2021/08/Magi-Watch-Order.jpg",
             "description": "",
-            "comments": ""
+            "comments": []
         },
 
         { 
@@ -62,24 +62,24 @@
             "name": "Jujutsu Kaisen",
             "image": "",
             "description": "High school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host." ,
-            "comments": ""
+            "comments": []
         
         },
 
         { 
             "id": 9,
             "name": "Death Note",
-            "image": "",
+            "image": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/a/a2/Chapter_1_%28Alternate%29.png/revision/latest?cb=20200129010446",
             "description": "",
-            "comments":  ""
+            "comments": []
         },
 
         { 
             "id": 10,
             "name": "Boruto",
-            "image": "",
+            "image": "https://img4.hulu.com/user/v3/artwork/e567be4f-2fd8-4127-bc08-580baad908e3?base_image_bucket_name=image_manager&base_image=a91d87f4-f239-4792-9266-b047a2546dea&region=US&format=jpeg&size=952x536 ",
             "description": "",
-            "comments": ""
+            "comments": []
         
         }
     ]
