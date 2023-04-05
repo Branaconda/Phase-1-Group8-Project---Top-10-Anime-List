@@ -259,7 +259,12 @@ p {
     background: none;
 }
 
-#angry-face {
+#angry-face-static{
+    background: none;
+        
+}
+
+#angry-face-bounce {
     background: none;
         
 }

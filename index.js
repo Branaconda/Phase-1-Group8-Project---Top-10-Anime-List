@@ -52,12 +52,25 @@ function renderAnime(anime) {
 }
 
 function likeButton() {
-    const likeButton = document.getElementById("buttons")
+    const likeButton = document.getElementById("all-like-buttons")
     likeButton.addEventListener('mouseover', () => {
         document.getElementById("like-button").hidden = true;
         document.getElementById("like-button2").hidden = false
+
     },
     false
 )}
 
 likeButton()
+
+function dislikeButton() {
+    const likeButton = document.getElementById("all-dislike-buttons")
+    likeButton.addEventListener('mouseover', () => {
+        document.getElementById("dislike-button").hidden = true;
+        document.getElementById("dislike-button2").hidden = false
+    },
+    false
+)}
+
+dislikeButton()
+
