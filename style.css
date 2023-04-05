@@ -60,7 +60,9 @@ header {
     justify-content: left;
     float: left;
     margin-top: 0px;
-    width: 250px
+    width: 250px;
+    border-style: dashed;
+    border-color: red;
     /* flex: 1; */
 }
 
@@ -185,7 +187,8 @@ header {
     margin-top: 0px;
     justify-content: right;
     width: 250px;
-    
+    border-style: dashed;
+    border-color:purple
     /* flex: 1 */
 }
 
@@ -242,6 +245,24 @@ p {
 
 #dislike-button-count {
 
+}
+/* Big container holding the 2 blue comment containers */
+#big-mamma-comment-container {
+    /* margin: auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    height: ;
+    width: ;
+    border-color: green;
+    border-style: dashed; */
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    height: 1000px;
 }
 
 /* Outer container that holds the comment and post boxes */
@@ -319,4 +340,40 @@ p {
 
 #comment-container ul {
     
+}
+
+#second-the-whole-page-div {
+    display:flex; 
+    flex-direction: row;
+    margin: 0 auto;
+    background: ;
+    width: 95%;
+    border-style: dashed;
+    border-color: green;
+}
+
+#blank-space-1 {
+    display: grid;
+    align-items: left;
+    position: top;
+    margin-right:15px;
+    justify-content: left;
+    float: left;
+    margin-top: 0px;
+    width: 400px;
+    border-style: dashed;
+    border-color: red;
+}
+
+#blank-space-2 {
+    display: grid;
+    align-items: right;
+    position: top;
+    float: right;
+    margin-left: 15px;
+    margin-top: 0px;
+    justify-content: right;
+    width: 300px;
+    border-style: dashed;
+    border-color:purple;
 }
