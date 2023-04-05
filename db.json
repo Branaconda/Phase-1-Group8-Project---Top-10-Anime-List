@@ -1,49 +1,49 @@
 {
     "anime" : [
         { 
-            "id": 1,
-            "name": "Attack on Titan" ,
-            "image": "https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=747157b1-4581-414a-959f-c4956ebc3349&region=US&format=jpeg&size=952x536" ,
-            "description": "Attack on titan: It is set in a world where humanity is forced to live in cities surrounded by three enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Even Yeager, who vows to exterminate the Titans after they bring about the destruction of his hometown and the death of his mother.",
+            "id" : 1,
+            "name" : "Fullmetal Alchemist: Brotherhood",
+            "image" : "assets/FMA Brotherhood.jpg",
+            "description": "Fullmetal: After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutation, the boys attempted to bring their recently deceased mother back to life. Instead, they suffered brutal personal loss: Alphonse's body disintegrated while Edward lost a leg and then sacrificed an arm to keep Alphonse's soul in the physical realm by binding it to a hulking suit of armor. As Edward becomes an infamous alchemist and gains the nickname \"Fullmetal,\" the boys' journey embroils them in a growing conspiracy that threatens the fate of the world.",
             "comments": []
         },
-        
+
         { 
-            "id" : 2,
-            "name" : "Fullmetal Alchemist: Brotherhood",
-            "image" : "https://ntvb.tmsimg.com/assets/p19347562_b_h10_aa.jpg?w=1280&h=720",
-            "description": "Fullmetal: After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutation, the boys attempted to bring their recently deceased mother back to life. Instead, they suffered brutal personal loss: Alphonse's body disintegrated while Edward lost a leg and then sacrificed an arm to keep Alphonse's soul in the physical realm by binding it to a hulking suit of armor. As Edward becomes an infamous alchemist and gains the nickname \"Fullmetal,\" the boys' journey embroils them in a growing conspiracy that threatens the fate of the world.",
+            "id": 2,
+            "name": "Attack on Titan" ,
+            "image": "assets/Attack on Titan.jpeg" ,
+            "description": "Attack on titan: It is set in a world where humanity is forced to live in cities surrounded by three enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Even Yeager, who vows to exterminate the Titans after they bring about the destruction of his hometown and the death of his mother.",
             "comments": []
         },
         
         { 
             "id": 3,
             "name": "Demon Slayer: Kimetsu no Yaiba",
-            "image": "https://ihsvoice.com/wp-content/uploads/2022/02/unnamed-5-900x676.jpg",
+            "image": "assets/Kimetsu no Yaiba.jpeg",
             "description": "Demon slayer: A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
             "comments": []
         },
 
         { 
             "id": 4,
-            "name": "Bleach",
-            "image": "https://fcuscoyotejournalism.com/wp-content/uploads/2022/01/Bleach-2021-Oneshot-Cover-900x651.jpg",
-            "description": "Bleach follows the adventures of Ichigo Kurosaki, a high school student with the ability to see ghosts. With this acquired power, so begins Kurosaki Ichigo's training and duty as a Shinigami to maintain the balance between the world of the living and the world of the dead.",
-            "comments":[]
-        },
-
-        { 
-            "id": 5,
             "name": "Hunter x Hunter",
-            "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/S/pv-target-images/108d2966eafb60aaafc333279cfcbdd443f8c2cb6d25f51f16dbc0571a6f2567._UR1920,1080_.jpg",
+            "image":"assets/HunterxHunter.jpeg",
             "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.",
             "comments": []
         },
 
         { 
+            "id": 5,
+            "name": "Bleach",
+            "image": "assets/Bleach.jpeg",
+            "description": "Bleach follows the adventures of Ichigo Kurosaki, a high school student with the ability to see ghosts. With this acquired power, so begins Kurosaki Ichigo's training and duty as a Shinigami to maintain the balance between the world of the living and the world of the dead.",
+            "comments":[]
+        },
+
+        { 
             "id": 6,
             "name": "That Time I Got Reincarnated as a Slime",
-            "image": "https://takanodan.net/assets/images/posts/10-slime/cover.png",
+            "image": "assets/TTIGRAAS.jpeg",
             "description": "Lonely thirty-seven-year-old Satoru Mikami is stuck in a dead-end job, unhappy with his mundane life, but after dying at the hands of a robber, he awakens to a fresh start in a fantasy realm...as a slime monster! As he acclimates to his goopy new existence, his exploits with the other monsters set off a chain of events that will change his new world forever!",
             "comments": []
         
@@ -52,7 +52,7 @@
         { 
             "id": 7,
             "name": "Magi: The Labyrinth of Magic",
-            "image": "https://cdn.technadu.com/wp-content/uploads/2021/08/Magi-Watch-Order.jpg",
+            "image": "assets/Magi.jpeg",
             "description": "One day, Alibaba meets a mysterious boy named Aladdin who can summon a mighty blue spirit from a flute and travels across the continent in search of Djinn Metal Vessels. Hoping to harness Aladdin's magical power, Alibaba invites Aladdin to join him on his dungeon-capturing expedition. Along the way and through numerous encounters and farewells, both of them will come to learn the truth about their destiny.",
             "comments": []
         },
@@ -60,7 +60,7 @@
         { 
             "id": 8,
             "name": "Jujutsu Kaisen",
-            "image": "",
+            "image": "assets/Jujutsu Kaisen.png",
             "description": "High school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host." ,
             "comments": []
         
@@ -69,7 +69,7 @@
         { 
             "id": 9,
             "name": "Death Note",
-            "image": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/a/a2/Chapter_1_%28Alternate%29.png/revision/latest?cb=20200129010446",
+            "image": "assets/Death Note.webp",
             "description": "Light Yagami (Tatsuya Fujiwara) is a normal, undistinguished college student -- that is, until he discovers an odd notebook lying on the ground. He soon discovers that the notebook has magic powers: If someone's name is written on it while the writer imagines that person's face, he or she will die. Intoxicated with his new godlike power, Light kills those he deems unworthy of life. But a mysterious detective known only as L (Ken'ichi Matsuyama) becomes determined to put a stop to his reign.",
             "comments": []
         },
@@ -77,7 +77,7 @@
         { 
             "id": 10,
             "name": "Boruto",
-            "image": "https://img4.hulu.com/user/v3/artwork/e567be4f-2fd8-4127-bc08-580baad908e3?base_image_bucket_name=image_manager&base_image=a91d87f4-f239-4792-9266-b047a2546dea&region=US&format=jpeg&size=952x536 ",
+            "image": "assets/Boruto.jpeg",
             "description": "Boruto is a spin-off and a sequel to Kishimoto's Naruto, which follows the exploits of Naruto Uzumaki's son, Boruto Uzumaki, and his ninja team.",
             "comments": []
         

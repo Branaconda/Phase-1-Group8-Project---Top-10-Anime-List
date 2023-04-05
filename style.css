@@ -14,10 +14,6 @@
     padding: 20px;
 }
 
-#main-title {
-
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -25,7 +21,6 @@ header {
     align-items: center;
     padding: 10px;
     background-color: ;
-    position: sticky;
 }
 
 #header-div{
@@ -46,17 +41,17 @@ header {
     display:flex; 
     flex-direction: row;
     background: ;
- } 
+} 
 
 #main-title {
     font-family: ;
-    font-size: ;
+    font-size: 20px;
     font-weight: ;
     color: ;
     background-color: ;
     text-align: center;
-
 }
+
 #left-images{
     display: grid;
     position: top;
@@ -99,7 +94,7 @@ header {
     flex; 1; */
 }
 
-#left-container {
+#left-inner-container {
     display: flex;
     flex-direction: column;
     height: ;
@@ -109,14 +104,59 @@ header {
     padding: ;
 }
 
-#vertical-line {
-    border-left: 1px solid white;
-    height: 600px;
+#default-anime-image {
+    height: 250px;
+    width: 250px;
+    align-self: center;
+    border-radius: 25px;
+    margin-top: 40px;
+    box-shadow: ;
 }
 
-/* #right-container{
+#anime-title {
+    font-family: ;
+    font-size: 30px;
+    background: none;
+    color: ;
+    text-align: center;
+}
 
-} */
+#vertical-line {
+    border-left: 1px solid white;
+    height: 680px;
+    margin-right: 40px;
+    align-self: center;
+}
+
+#right-inner-container {
+    display: flex;
+    background-color: ;
+    width: ;
+}
+
+#anime-description {
+    font-family: ;
+    font-size: 30px;
+    background: none;
+    color: ;
+    margin-left: ;
+}
+
+#anime-description-box {
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: ;
+    margin-right: ;
+    align-items: center;
+    border-radius: 25px;
+    padding: ;
+    background-color: aquamarine;
+}
+
+#anime-description-body {
+    
+}
 
 #right-images{
     align-items: right;
@@ -150,10 +190,47 @@ p {
     background: none;
     background-color: #f13c20;
     margin: 10px auto;
-    height: 50px;
+    height: 60px;
     width: 1000px;
     border-radius: 20px;
     box-shadow: ;
+}
+
+#comment-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#comment-box input {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    vertical-align: middle;
+    padding: 0 20px;
+    border: 
+}
+
+#comment-box textarea {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-left: ;
+    padding: 0 10px;
+    border: 
+}
+
+#comment-username {
+    
+}
+
+#comment-text {
+    font-family: ;
+    font-weight: ;
+    text-align: ;
 }
 
 #comment-container {
@@ -164,14 +241,12 @@ p {
     height: 300px;
     width: 1000px;
     border-radius: 25px;<CALDZzH+GB-eXExQMfbjFMZbmHJ2oRed-Pr0M1Bv=Gd=kn0wb2Q@mail.gmail.com>
+    font-family: ;
+    font-size: 30px;
+    padding: 10px;
     box-shadow: ;
 }
 
-#comment-username {
+#comment-container ul {
     
 }
-
-textarea {
-
-}
-
