@@ -60,7 +60,7 @@ header {
     justify-content: left;
     float: left;
     margin-top: 0px;
-    width: 250px;
+    width: 325px;
     border-style: dashed;
     border-color: red;
     /* flex: 1; */
@@ -68,8 +68,8 @@ header {
 
 .left {
     display:block;
-    width: 250px;
     float: left;
+    width:250px;
     /* margin-left: 15px;
     margin-right:15px; */
     margin-bottom: 0px ;
@@ -186,7 +186,7 @@ header {
     margin-left: 15px;
     margin-top: 0px;
     justify-content: right;
-    width: 250px;
+    width: 325px;
     border-style: dashed;
     border-color:purple
     /* flex: 1 */
@@ -360,7 +360,7 @@ p {
     justify-content: left;
     float: left;
     margin-top: 0px;
-    width: 400px;
+    width: 325px;
     border-style: dashed;
     border-color: red;
 }
@@ -373,7 +373,7 @@ p {
     margin-left: 15px;
     margin-top: 0px;
     justify-content: right;
-    width: 300px;
+    width: 325px;
     border-style: dashed;
     border-color:purple;
 }
