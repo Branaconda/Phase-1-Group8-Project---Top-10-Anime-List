@@ -222,6 +222,21 @@ p {
     font-size: 25px;
 }
 
+#like-button {
+    background: none;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+#like-button2 {
+    background: none;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
 #dislike-button {
     background: none;
     margin-left: 50px;
@@ -229,8 +244,18 @@ p {
     cursor: pointer;
     font-size: 25px;
 }
+#dislike-button2 {
+    background: none;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+#happy-face-static {
+    background: none;
+}
 
-#happy-face {
+#happy-face-bounce {
     background: none;
 }
 
