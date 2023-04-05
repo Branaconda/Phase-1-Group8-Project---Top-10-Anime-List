@@ -1,17 +1,15 @@
 
 
-/* *{
-    background-color: #c5cbe3
-} */
-
+/* Navigation Bar up top */
 .nav-links li {
+    display: inline-block;
     font-family: ;
     font-weight: 400;
     font-size: 20px;
     text-decoration: none;
     color: ;
     background-color: ;
-    padding: 20px;
+    padding: 10px 50px;
 }
 
 header {
@@ -33,8 +31,7 @@ header {
 }
 
 .nav-links li {
-    display: inline-block;
-    padding: 0px 50px;
+   
 }
 
 #the-whole-page-div{
@@ -43,6 +40,7 @@ header {
     background: ;
 } 
 
+/* Top 10 Anime Title */
 #main-title {
     font-family: ;
     font-size: 20px;
@@ -80,10 +78,11 @@ header {
     
 }
 
+/* The entire central container*/
 #detail-content-container {
     display: flex;
     flex-direction: ;
-    background-color: #f13c20;
+    background-color: #2F3C7E;
     margin: 10px auto;
     margin-left: 15px;
     margin-right: 15px;
@@ -94,66 +93,77 @@ header {
     flex; 1; */
 }
 
+/* Left side of the central container */
 #left-inner-container {
     display: flex;
     flex-direction: column;
     height: ;
-    width: 400px;
+    width: 500px;
     background: none;
     font-weight: ;
     padding: ;
 }
 
+/* Anime stock image on the left side of central container */
 #default-anime-image {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     align-self: center;
     border-radius: 25px;
-    margin-top: 40px;
+    margin-top: 60px;
     box-shadow: ;
 }
 
+/* The title on the left side of central container */
 #anime-title {
     font-family: ;
-    font-size: 30px;
+    font-size: 40px;
     background: none;
     color: ;
     text-align: center;
 }
 
+/* Line down the middle */
 #vertical-line {
-    border-left: 1px solid white;
+    border-left: 1px solid #FBEAEB;
     height: 680px;
     margin-right: 40px;
     align-self: center;
 }
-
+/* Right side of the central container */
 #right-inner-container {
     display: flex;
-    background-color: ;
-    width: ;
+    flex-direction: column;
+    height: ;
+    width: 700px;
+    background: none;
+    font-weight: ;
+    padding: ;
 }
 
+/* The Synopsis title above the description box*/
 #anime-description {
     font-family: ;
-    font-size: 30px;
+    font-size: 40px;
     background: none;
     color: ;
     margin-left: ;
 }
 
+/* The anime summary box*/
 #anime-description-box {
     width: 500px;
     height: 300px;
-    margin-top: 100px;
-    margin-left: ;
-    margin-right: ;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     border-radius: 25px;
     padding: ;
-    background-color: aquamarine;
+    background-color:  #FBEAEB;
 }
 
+/*The summary text paragraph*/
 #anime-description-body {
     
 }
@@ -184,18 +194,60 @@ p {
     margin-left: 0px;
 }
 
+#buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 75px;
+}
+
+#like-button {
+    background: none;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#dislike-button {
+    background: none;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#happy-face {
+    background: none;
+}
+
+#angry-face {
+    background: none;
+        
+}
+
+#like-button-count {
+
+}
+
+#dislike-button-count {
+
+}
+
+/* Outer container that holds the comment and post boxes */
 #comment-box {
     display: flex;
     flex-direction: row;
     background: none;
-    background-color: #f13c20;
+    background-color: #2F3C7E;
     margin: 10px auto;
     height: 60px;
-    width: 1000px;
+    width: 1010px;
     border-radius: 20px;
     box-shadow: ;
 }
 
+/*  Username, leave a review, and post boxes*/
 #comment-form {
     display: block;
     margin-left: auto;
@@ -204,6 +256,7 @@ p {
     margin-bottom: auto;
 }
 
+/*  */
 #comment-box input {
     width: 100px;
     height: 30px;
@@ -213,6 +266,7 @@ p {
     border: 
 }
 
+/*  */
 #comment-box textarea {
     width: 400px;
     height: 30px;
@@ -227,16 +281,18 @@ p {
     
 }
 
+/*  Text are of the comment form*/
 #comment-text {
     font-family: ;
     font-weight: ;
     text-align: ;
 }
 
+/*  Container where the comments go*/
 #comment-container {
     display: flex;
     background: none;
-    background-color: #f13c20;
+    background-color: #2F3C7E;
     margin: 10px auto;
     height: 300px;
     width: 1000px;
