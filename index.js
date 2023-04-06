@@ -29,7 +29,7 @@ function iterateComments(commentsData){
 function renderComments(comment){
     const commentContainer = document.getElementById("comment-container")
     const commentLi = document.createElement("li")
-    commentLi.innerText = comment.content
+    commentLi.innerText = `${comment.username}: ${comment.content}`
     commentContainer.appendChild(commentLi)
 }
 
@@ -99,4 +99,17 @@ function dislikeButton() {
 
 dislikeButton()
 
+let form = document.getElementById('comment-form')
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    let newComment = {
+            'username': form.name.value,
+            'content': form.comment.value,
+        } 
+
+    renderComments(newComment);
+    form.reset();
+})
 
