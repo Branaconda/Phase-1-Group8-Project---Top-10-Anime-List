@@ -83,18 +83,16 @@ function likeButton() {
         document.getElementById("like-button2").hidden = false
 
     },
-    false
 )}
 
 likeButton()
 
 function dislikeButton() {
-    const likeButton = document.getElementById("all-dislike-buttons")
-    likeButton.addEventListener('mouseover', () => {
+    const dislikeButton = document.getElementById("all-dislike-buttons")
+    dislikeButton.addEventListener('mouseover', () => {
         document.getElementById("dislike-button").hidden = true;
         document.getElementById("dislike-button2").hidden = false
     },
-    false
 )}
 
 dislikeButton()

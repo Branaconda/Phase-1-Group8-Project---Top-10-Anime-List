@@ -29,7 +29,7 @@ Then, open the 'index.html' file in your browser.
 The user should be able to: 
 
 1. See all anime images displayed within the div. When the page loads, data will be requested from the server through a GET request.
-2. Click on each image to see a detailed description, rating, and comment form 
+2. Click on each image to see a detailed description and comment form 
 3. Leave a like on an anime
-4. Add a comment to each anime. The comment does not need to persist.
+4. Add a comment to the comment section anime. The comment does not need to persist.
 5. Trigger a mouseover event on the like/dislike buttons 
