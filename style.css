@@ -362,13 +362,14 @@ p {
     background: none;
     background-color: #2F3C7E;
     margin: 10px auto;
-    height: 300px;
+    height: auto;
     width: 1000px;
     border-radius: 25px;
     font-family: ;
     font-size: 30px;
     padding: 10px;
     box-shadow: ;
+
 }
 
 #comment-container ul {
