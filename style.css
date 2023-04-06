@@ -359,7 +359,7 @@ p {
 
 /*  Container where the comments go*/
 #comment-container {
-    display: flex;
+    display: ;
     background: none;
     background-color: #2F3C7E;
     margin: 10px auto;
@@ -369,13 +369,22 @@ p {
     font-family: ;
     font-size: 30px;
     padding: 10px;
+    color: ;
     box-shadow: ;
-
+    text-align: left;
+    list-style-type: none;
 }
 
-#comment-container ul {
+#comment-header {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* #comment-list {
+    display: ;
+    text-align: ; 
     
-}
+} */
 
 #second-the-whole-page-div {
     display:flex; 
