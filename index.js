@@ -18,7 +18,7 @@ function iterateFunction(animeData){
 }
 
 function renderAnime(anime) {
-    
+
     const animeName = document.createElement('p')
     animeName.innerText = anime.name
     
@@ -73,4 +73,5 @@ function dislikeButton() {
 )}
 
 dislikeButton()
+
 
