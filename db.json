@@ -97,7 +97,11 @@
     "comments": [
         {
             "username": "Ken",
-            "comment": "Why is Boruto on this flipping list?"
+            "content": "Why is Boruto on this flipping list?"
+        },
+        {
+            "username": "Ken",
+            "content": "Why is Boruto on this flipping list?"
         }
     ]
 }

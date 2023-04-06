@@ -3,22 +3,47 @@
 
 const mainUrl = "http://localhost:3000/"
 const animeUrl = mainUrl + "anime/"
-
+const commentsUrl = mainUrl + "comments/"
 
 function fetchAnime(){
     fetch(animeUrl)
     .then(response => response.json())
-    .then(animeData => iterateFunction(animeData))
+    .then(animeData => iterateAnime(animeData))
+    // .then(animeData =>forEaching(animeData))
 }
 
 fetchAnime()
 
-function iterateFunction(animeData){
+function fetchComments(){
+    fetch(commentsUrl)
+    .then(response => response.json())
+    .then(commentsData => iterateComments(commentsData))
+}
+
+fetchComments()
+
+
+function iterateComments(commentsData){
+    commentsData.forEach(comment=>renderComments(comment))
+}
+function renderComments(comment){
+    const commentContainer = document.getElementById("comment-container")
+    const commentLi = document.createElement("li")
+    commentLi.innerText = comment.content
+    commentContainer.appendChild(commentLi)
+}
+
+
+
+
+
+function iterateAnime(animeData){
+    console.log(animeData)
     animeData.forEach(anime => renderAnime(anime))
 }
 
 function renderAnime(anime) {
-
+    
     const animeName = document.createElement('p')
     animeName.innerText = anime.name
     
