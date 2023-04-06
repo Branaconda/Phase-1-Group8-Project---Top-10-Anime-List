@@ -92,7 +92,7 @@ header {
     display: flex;
     flex-direction: ;
     justify-content: center;
-    background-color: #2F3C7E;
+    background-color: #364591;
     margin: 0 auto;
     /* margin-left: 15px;
     margin-right: 15px; */
@@ -129,7 +129,7 @@ header {
 
 /* The title on the left side of central container */
 #anime-title {
-    font-family: ;
+    font-family: "Monaco";
     font-size: 40px;
     background: none;
     color: ;
@@ -156,7 +156,7 @@ header {
 
 /* The Synopsis title above the description box*/
 #anime-description {
-    font-family: ;
+    font-family: "Monaco";
     font-size: 40px;
     background: none;
     color: ;
@@ -209,6 +209,7 @@ p {
     margin-top: 5px;
     margin-left: 0px;
     font-family: "Monaco";
+    font-weight: 900;
 }
 
 #buttons {
@@ -304,7 +305,7 @@ p {
     display: flex;
     flex-direction: row;
     background: none;
-    background-color: #2F3C7E;
+    background-color: #364591;
     margin: 10px auto;
     height: 60px;
     width: 90%;
@@ -358,13 +359,13 @@ p {
 #comment-container {
     display: ;
     background: none;
-    background-color: #2F3C7E;
+    background-color: #364591;
     margin: 10px auto;
     height: auto;
     width: 90%;
     border-radius: 25px;
-    font-family: ;
-    font-size: 30px;
+    font-family: "Monaco";
+    font-size: 22.5px;
     padding: 10px;
     color: ;
     box-shadow: ;
@@ -376,13 +377,19 @@ p {
 #comment-header {
     margin-top: 0;
     text-align: center;
+    font-family: "Monaco";
+    font-size: 35px;
 }
 
-/* #comment-list {
+li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
     display: ;
     text-align: ; 
     
-} */
+}
 
 #second-the-whole-page-div {
     display: flex; 
