@@ -160,17 +160,35 @@ dislikeButton()
     }
 
     //Comment submit form
-let form = document.getElementById('comment-form')
+    let form = document.getElementById('comment-form')
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
+    form.addEventListener ('submit', patchFunction)
+    
+    function patchFunction (event) {
+        event.preventDefault()
+        const commentForm = event.target
+    
+        const newComment = {
+                username: commentForm.name.value,
+                content: commentForm.comment.value,
+            } 
+    
+        fetch(commentsUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': "application/json",
+                    'Accepts' : "application/json"
+                },
+                body: JSON.stringify(newComment)
+        })
+    
+            .then(response => response.json())
+            .then(data => {
+                
+                renderComments(data)
+                commentForm.reset()
+            
+            }) 
+        }
 
-    let newComment = {
-            'username': form.name.value,
-            'content': form.comment.value,
-        } 
-
-    renderComments(newComment);
-    form.reset();
-})
 

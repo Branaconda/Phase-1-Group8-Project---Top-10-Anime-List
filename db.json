@@ -1,107 +1,101 @@
 {
-    "anime" : [
-        { 
-            "id" : 1,
-            "name" : "Fullmetal Alchemist: Brotherhood",
-            "image" : "assets/FMA Brotherhood.jpg",
-            "description": "After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutation, the boys attempted to bring their recently deceased mother back to life. Instead, they suffered brutal personal loss: Alphonse's body disintegrated while Edward lost a leg and then sacrificed an arm to keep Alphonse's soul in the physical realm by binding it to a hulking suit of armor. As Edward becomes an infamous alchemist and gains the nickname \"Fullmetal,\" the boys' journey embroils them in a growing conspiracy that threatens the fate of the world.",
-            "alt": "Fullmetal Alchemist Cover Art",
-            "comments": []
-        },
-
-        { 
-            "id": 2,
-            "name": "Attack on Titan" ,
-            "image": "assets/Attack on Titan.jpeg" ,
-            "description": "It is set in a world where humanity is forced to live in cities surrounded by three enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Even Yeager, who vows to exterminate the Titans after they bring about the destruction of his hometown and the death of his mother.",
-            "alt": "Attack on Titan Cover Art",
-            "comments": []
-        },
-        
-        { 
-            "id": 3,
-            "name": "Demon Slayer: Kimetsu no Yaiba",
-            "image": "assets/Kimetsu no Yaiba.jpeg",
-            "description": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
-            "alt": "Demon Slayer: Kimetsu no Yaiba Cover Art",
-            "comments": []
-        },
-
-        { 
-            "id": 4,
-            "name": "Hunter x Hunter",
-            "image":"assets/HunterxHunter.jpeg",
-            "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.",
-            "alt": "Hunter x Hunter Cover Art",
-            "comments": []
-        },
-
-        { 
-            "id": 5,
-            "name": "Bleach",
-            "image": "assets/Bleach.jpeg",
-            "description": "Bleach follows the adventures of Ichigo Kurosaki, a high school student with the ability to see ghosts. With this acquired power, so begins Kurosaki Ichigo's training and duty as a Shinigami to maintain the balance between the world of the living and the world of the dead.",
-            "alt": "Bleach Cover Art",
-            "comments":[]
-        },
-
-        { 
-            "id": 6,
-            "name": "That Time I Got Reincarnated as a Slime",
-            "image": "assets/TTIGRAAS.jpeg",
-            "description": "Lonely thirty-seven-year-old Satoru Mikami is stuck in a dead-end job, unhappy with his mundane life, but after dying at the hands of a robber, he awakens to a fresh start in a fantasy realm...as a slime monster! As he acclimates to his goopy new existence, his exploits with the other monsters set off a chain of events that will change his new world forever!",
-            "alt": "That Time I Got Reincarnated as a Slime Cover Art",
-            "comments": []
-        
-        },
-
-        { 
-            "id": 7,
-            "name": "Magi: The Labyrinth of Magic",
-            "image": "assets/Magi.jpeg",
-            "description": "One day, Alibaba meets a mysterious boy named Aladdin who can summon a mighty blue spirit from a flute and travels across the continent in search of Djinn Metal Vessels. Hoping to harness Aladdin's magical power, Alibaba invites Aladdin to join him on his dungeon-capturing expedition. Along the way and through numerous encounters and farewells, both of them will come to learn the truth about their destiny.",
-            "alt" :"Magi: The Labyrinth of Magic Cover Art",
-            "comments": []
-        },
-
-        { 
-            "id": 8,
-            "name": "Jujutsu Kaisen",
-            "image": "assets/Jujutsu Kaisen.png",
-            "description": "High school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host." ,
-            "alt": "Jujutsu Kaisen Cover Art",
-            "comments": []
-        
-        },
-
-        { 
-            "id": 9,
-            "name": "Death Note",
-            "image": "assets/Death Note.webp",
-            "description": "Light Yagami (Tatsuya Fujiwara) is a normal, undistinguished college student -- that is, until he discovers an odd notebook lying on the ground. He soon discovers that the notebook has magic powers: If someone's name is written on it while the writer imagines that person's face, he or she will die. Intoxicated with his new godlike power, Light kills those he deems unworthy of life. But a mysterious detective known only as L (Ken'ichi Matsuyama) becomes determined to put a stop to his reign.",
-            "alt": "Death Note Cover Art",
-            "comments": []
-        },
-
-        { 
-            "id": 10,
-            "name": "Boruto",
-            "image": "assets/Boruto.jpeg",
-            "description": "Boruto is a spin-off and a sequel to Kishimoto's Naruto, which follows the exploits of Naruto Uzumaki's son, Boruto Uzumaki, and his ninja team.",
-            "alt": "Boruto Cover Art",
-            "comments": []
-        
-        }
-    ],
-
-    "comments": [
-        {
-            "username": "Ken",
-            "content": "Why is Boruto on this flipping list?"
-        },
-        {
-            "username": "Ali",
-            "content": "Seriously, why tf is Boruto on this flipping list?"
-        }
-    ]
+  "anime": [
+    {
+      "id": 1,
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "image": "assets/FMA Brotherhood.jpg",
+      "description": "After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutation, the boys attempted to bring their recently deceased mother back to life. Instead, they suffered brutal personal loss: Alphonse's body disintegrated while Edward lost a leg and then sacrificed an arm to keep Alphonse's soul in the physical realm by binding it to a hulking suit of armor. As Edward becomes an infamous alchemist and gains the nickname \"Fullmetal,\" the boys' journey embroils them in a growing conspiracy that threatens the fate of the world.",
+      "alt": "Fullmetal Alchemist Cover Art",
+      "comments": []
+    },
+    {
+      "id": 2,
+      "name": "Attack on Titan",
+      "image": "assets/Attack on Titan.jpeg",
+      "description": "It is set in a world where humanity is forced to live in cities surrounded by three enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Even Yeager, who vows to exterminate the Titans after they bring about the destruction of his hometown and the death of his mother.",
+      "alt": "Attack on Titan Cover Art",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "image": "assets/Kimetsu no Yaiba.jpeg",
+      "description": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
+      "alt": "Demon Slayer: Kimetsu no Yaiba Cover Art",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "name": "Hunter x Hunter",
+      "image": "assets/HunterxHunter.jpeg",
+      "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.",
+      "alt": "Hunter x Hunter Cover Art",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "name": "Bleach",
+      "image": "assets/Bleach.jpeg",
+      "description": "Bleach follows the adventures of Ichigo Kurosaki, a high school student with the ability to see ghosts. With this acquired power, so begins Kurosaki Ichigo's training and duty as a Shinigami to maintain the balance between the world of the living and the world of the dead.",
+      "alt": "Bleach Cover Art",
+      "comments": []
+    },
+    {
+      "id": 6,
+      "name": "That Time I Got Reincarnated as a Slime",
+      "image": "assets/TTIGRAAS.jpeg",
+      "description": "Lonely thirty-seven-year-old Satoru Mikami is stuck in a dead-end job, unhappy with his mundane life, but after dying at the hands of a robber, he awakens to a fresh start in a fantasy realm...as a slime monster! As he acclimates to his goopy new existence, his exploits with the other monsters set off a chain of events that will change his new world forever!",
+      "alt": "That Time I Got Reincarnated as a Slime Cover Art",
+      "comments": []
+    },
+    {
+      "id": 7,
+      "name": "Magi: The Labyrinth of Magic",
+      "image": "assets/Magi.jpeg",
+      "description": "One day, Alibaba meets a mysterious boy named Aladdin who can summon a mighty blue spirit from a flute and travels across the continent in search of Djinn Metal Vessels. Hoping to harness Aladdin's magical power, Alibaba invites Aladdin to join him on his dungeon-capturing expedition. Along the way and through numerous encounters and farewells, both of them will come to learn the truth about their destiny.",
+      "alt": "Magi: The Labyrinth of Magic Cover Art",
+      "comments": []
+    },
+    {
+      "id": 8,
+      "name": "Jujutsu Kaisen",
+      "image": "assets/Jujutsu Kaisen.png",
+      "description": "High school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.",
+      "alt": "Jujutsu Kaisen Cover Art",
+      "comments": []
+    },
+    {
+      "id": 9,
+      "name": "Death Note",
+      "image": "assets/Death Note.webp",
+      "description": "Light Yagami (Tatsuya Fujiwara) is a normal, undistinguished college student -- that is, until he discovers an odd notebook lying on the ground. He soon discovers that the notebook has magic powers: If someone's name is written on it while the writer imagines that person's face, he or she will die. Intoxicated with his new godlike power, Light kills those he deems unworthy of life. But a mysterious detective known only as L (Ken'ichi Matsuyama) becomes determined to put a stop to his reign.",
+      "alt": "Death Note Cover Art",
+      "comments": []
+    },
+    {
+      "id": 10,
+      "name": "Boruto",
+      "image": "assets/Boruto.jpeg",
+      "description": "Boruto is a spin-off and a sequel to Kishimoto's Naruto, which follows the exploits of Naruto Uzumaki's son, Boruto Uzumaki, and his ninja team.",
+      "alt": "Boruto Cover Art",
+      "comments": []
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "username": "Ken",
+      "content": "Why is Boruto on this flipping list?"
+    },
+    {
+      "id": 2,
+      "username": "Ali",
+      "content": "Seriously, why tf is Boruto on this flipping list?"
+    },
+    {
+      "username": "Thomas",
+      "content": "Umm, why isn't Attack on Titan #1? Rude.",
+      "id": 3
+    }
+  ]
 }
