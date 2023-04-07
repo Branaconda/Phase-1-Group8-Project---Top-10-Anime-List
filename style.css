@@ -8,9 +8,27 @@
     font-size: 20px;
     text-decoration: none;
     color: ;
-    background-color: ;
-    padding: 0px 50px;
+    border-radius: 50px;
+    background-color: #FBEAEB;
+    border-color: #efaaae;
+    border-style: solid;
+    opacity: 95%;
+    padding: 5px 30px;
 }
+
+/* .button {
+    font-family: ;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: ;
+    border-radius: 50px;
+    background-color: #FBEAEB;
+    border-color: #efaaae;
+    border-style: solid;
+    opacity: 95%;
+    padding: 5px 30px; 
+} */
 
 header {
     display: flex;
@@ -30,10 +48,6 @@ header {
     /* height: 150px; */
 }
 
-.nav-links li {
-   
-}
-
 #the-whole-page-div{
     display:flex; 
     flex-direction: row;
@@ -51,7 +65,7 @@ header {
     background-color: ;
     text-align: center;
 }
-
+/*text for left images as well*/
 #left-images{
     display: grid;
     align-items: left;
@@ -61,8 +75,9 @@ header {
     float: left;
     margin-top: 0px;
     width: 325px;
-    border-style: dashed;
-    border-color: red;
+    font-weight: bolder;
+    /* border-style: dashed;
+    border-color: red; */
     /* flex: 1; */
 }
 
@@ -191,8 +206,9 @@ header {
     margin-top: 0px;
     justify-content: right;
     width: 325px;
-    border-style: dashed;
-    border-color:purple
+    font-weight: bolder;
+    /* border-style: dashed;
+    border-color:purple; */
     /* flex: 1 */
 }
 
@@ -209,7 +225,7 @@ p {
     margin-top: 5px;
     margin-left: 0px;
     font-family: "Monaco";
-    font-weight: 900;
+    font-weight: ;
 }
 
 #buttons {
@@ -397,8 +413,8 @@ li {
     margin: 0 auto;
     background: ;
     width: 95%;
-    border-style: dashed;
-    border-color: green;
+    /* border-style: dashed;
+    border-color: green; */
 }
 
 #blank-space-1 {
@@ -410,8 +426,8 @@ li {
     float: left;
     margin-top: 0px;
     width: 325px;
-    border-style: dashed;
-    border-color: red;
+    /* border-style: dashed;
+    border-color: red; */
 }
 
 #blank-space-2 {
@@ -423,6 +439,6 @@ li {
     margin-top: 0px;
     justify-content: right;
     width: 325px;
-    border-style: dashed;
-    border-color:purple;
+    /* border-style: dashed;
+    border-color:purple; */
 }

@@ -97,6 +97,15 @@ function dislikeButton() {
 
 dislikeButton()
 
+// Navigation Bar Mouseover stuff
+    let navBarHover = document.getElementById('button1')
+    navBarHover.addEventListener('mouseover', function buttonColor(){
+        button1.style.backgroundColor = '#95EBE6';
+        button2.style.backgroundColor = '#FA8072';
+        button3.style.backgroundColor = '#FF5733';
+        button4.style.backgroundColor = '#FF7F50';
+    })
+
 let form = document.getElementById('comment-form')
 
 form.addEventListener('submit', (event) => {
