@@ -13,7 +13,7 @@
     border-color: #efaaae;
     border-style: solid;
     opacity: 95%;
-    padding: 5px 30px;
+    padding: 10px 30px;
     
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -160,10 +160,20 @@ header {
 /* The title on the left side of central container */
 #anime-title {
     font-family: "Monaco";
-    font-size: 40px;
+    font-size: 35px;
     background: none;
     color: ;
     text-align: center;
+    
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 25px;
+    padding: 25px;
+    width: 80%;
+    background-color:  #FBEAEB;
 }
 
 /* Line down the middle */
@@ -187,10 +197,18 @@ header {
 /* The Synopsis title above the description box*/
 #anime-description {
     font-family: "Monaco";
-    font-size: 40px;
+    font-size: 35px;
     background: none;
-    color: ;
-    margin-left: ;
+    
+    
+    height:auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 25px;
+    padding: 25px;
+    background-color:  #FBEAEB;
 }
 
 /* The anime summary box*/
@@ -353,12 +371,12 @@ p {
     background: none;
     background-color: #364591;
     margin: 10px auto;
+    margin-top: 100px;
     height: 60px;
     width: 90%;
     border-radius: 20px;
     padding: 10px;
     box-shadow: ;
-    margin-top: 100px;
     
     /* justify-content: center;
     float: center;
@@ -422,10 +440,21 @@ p {
 }
 
 #comment-header {
-    margin-top: 0;
-    text-align: center;
     font-family: "Monaco";
     font-size: 35px;
+    background: none;
+    color: ;
+    text-align: center;
+    
+    height: auto;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 25px;
+    padding: 25px;
+    background-color:  #FBEAEB;
 }
 
 li {

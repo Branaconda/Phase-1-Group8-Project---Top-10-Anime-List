@@ -124,18 +124,38 @@ function dislikeButton() {
 dislikeButton()
 
 // Navigation Bar Mouseover stuff
-    let navBarHover = document.getElementById('buttons')
-    navBarHover.onmouseover = function (newColor){
+    let navBarHover1 = document.getElementById('button1')
+    navBarHover1.onmouseover = function (newColor){
         button1.style.backgroundColor = '#95EBE6';
-        button2.style.backgroundColor = '#FA8072';
-        button3.style.backgroundColor = '#FF5733';
-        button4.style.backgroundColor = '#FF7F50';
+    }
+    let navBarHover2 = document.getElementById('button2')
+    navBarHover2.onmouseover = function (newColor){
+        button2.style.backgroundColor = '#95EBE6';
+    }
+    let navBarHover3 = document.getElementById('button3')
+    navBarHover3.onmouseover = function (newColor){ 
+        button3.style.backgroundColor = '#95EBE6';
+    }
+    let navBarHover4 = document.getElementById('button4')
+        navBarHover4.onmouseover = function (newColor){
+        button4.style.backgroundColor = '#95EBE6';
     }
 
-    navBarHover.onmouseout = function (normalColor) {
+    //Nav bar mouseout
+    let navBarMouseout1 = document.getElementById('button1') 
+    navBarMouseout1.onmouseout = function (normalColor) {
         button1.style.backgroundColor = '';
+    }
+    let navBarMouseout2 = document.getElementById('button2')
+    navBarMouseout2.onmouseout = function (normalColor) {
         button2.style.backgroundColor = '';
+    }
+    let navBarMouseout3 = document.getElementById('button3')
+    navBarMouseout3.onmouseout = function (normalColor) {
         button3.style.backgroundColor = '';
+    }
+    let navBarMouseout4 = document.getElementById('button4')
+    navBarMouseout4.onmouseout = function (normalColor) {
         button4.style.backgroundColor = '';
     }
 
