@@ -81,8 +81,20 @@ function likeButton() {
     likeButton.addEventListener('mouseover', () => {
         document.getElementById("like-button").hidden = true;
         document.getElementById("like-button2").hidden = false
-
+        
+        const likeCount = document.getElementById('like-count')
+            let count = 0
+            likeCount.innerText = `${count}`
+    
+        likeButton.addEventListener('click', () => {
+            count += 1;
+            likeCount.textContent = count
+        })
     },
+    likeButton.onmouseout = function(likeMouseout) { 
+        document.getElementById("like-button").hidden = false;
+        document.getElementById("like-button2").hidden = true
+    }
 )}
 
 likeButton()
@@ -92,20 +104,42 @@ function dislikeButton() {
     dislikeButton.addEventListener('mouseover', () => {
         document.getElementById("dislike-button").hidden = true;
         document.getElementById("dislike-button2").hidden = false
+
+        const dislikeCount = document.getElementById('dislike-count')
+            let count = 0
+            dislikeCount.innerText = `${count}`
+    
+        dislikeButton.addEventListener('click', () => {
+            count += 1;
+            dislikeCount.textContent = count
+        })
     },
+
+    dislikeButton.onmouseout = function(dislikeMouseout) {
+        document.getElementById("dislike-button").hidden = false;
+        document.getElementById("dislike-button2").hidden = true 
+    }
 )}
 
 dislikeButton()
 
 // Navigation Bar Mouseover stuff
-    let navBarHover = document.getElementById('button1')
-    navBarHover.addEventListener('mouseover', function buttonColor(){
+    let navBarHover = document.getElementById('buttons')
+    navBarHover.onmouseover = function (newColor){
         button1.style.backgroundColor = '#95EBE6';
         button2.style.backgroundColor = '#FA8072';
         button3.style.backgroundColor = '#FF5733';
         button4.style.backgroundColor = '#FF7F50';
-    })
+    }
 
+    navBarHover.onmouseout = function (normalColor) {
+        button1.style.backgroundColor = '';
+        button2.style.backgroundColor = '';
+        button3.style.backgroundColor = '';
+        button4.style.backgroundColor = '';
+    }
+
+    //Comment submit form
 let form = document.getElementById('comment-form')
 
 form.addEventListener('submit', (event) => {
